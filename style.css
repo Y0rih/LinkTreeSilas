@@ -53,10 +53,17 @@ body * {
   width: 112px;
 }
 
+
 #profile p {
   font-weight: 500;
   line-height: 24px;
   margin-top: 8px;
+}
+
+#profile h6 {
+  font-size: 13px;
+  font-weight: 250;
+  margin: 3px;
 }
 
 /* switch */
@@ -118,6 +125,7 @@ ul {
   padding: 24px;
 }
 
+
 ul li a {
   display: flex;
   align-items: center;
@@ -127,7 +135,7 @@ ul li a {
 
   background: var(--surface-color);
   border: 1px solid var(--stroke-color);
-  border-radius: 8px;
+  border-radius: 25px;
 
   -webkit-backdrop-filter: blur(4px);
   backdrop-filter: blur(4px);
@@ -145,11 +153,12 @@ ul li a:hover {
 }
 
 ul li a img {
-  width: 10px;
+  width: 100px;
   margin: 10px;
   border: 1px solid white;
   border-radius: 5px;
 }
+
 
 /* Links Sociais */
 #social-links {
